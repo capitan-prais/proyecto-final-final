@@ -222,7 +222,7 @@ btn.addEventListener('click', () => {
     if (menu.classList.contains('active')) {
         icon.src = 'imagenes/cancelar.png'; // Ícono cuando el menú está abierto
     } else {
-        icon.src = 'imagenes/iconodemenu.png'; // Ícono cuando el menú está cerrado
+        icon.src = 'imagenes/menu.png'; // Ícono cuando el menú está cerrado
     }
 });
 
@@ -246,15 +246,7 @@ type="text/javascript">
 			$('audio')[5].play();
 		});
 
-		$('.logo4').mouseup(function(){
-			$('audio')[3].play();
-		});
-
-		$('.logo4').mouseenter(function(){
-			$('audio')[3].pause();
-		});
-
-		$('.ContenedorBuscador').mouseup(function(){
+		$('.buscador-container').mouseup(function(){
 			$('audio')[4].play();
 		});
 
