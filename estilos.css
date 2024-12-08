@@ -414,6 +414,7 @@
     transform: translateY(350%); /* nos sirve para subir o bajar en contenido*/
     border-radius: 100px 100px;
     background: rgba(0, 0, 0, 0.4);
+    
   }
 
 
@@ -425,6 +426,7 @@
     max-width: 600px; /* Evita texto muy ancho */
     text-transform: uppercase; /* estilo de letra */
     letter-spacing: 10px; /*espacio entre letra*/
+    text-shadow: 3px 3px 0px #000, 5px 5px 0px #000, 7px 7px 0px #000;
   }
   
   
