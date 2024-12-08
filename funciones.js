@@ -1,3 +1,4 @@
+// aqui modificamos el carrusel
 document.addEventListener('DOMContentLoaded', () => {
     const carousels = document.querySelectorAll('.carousel');
 
