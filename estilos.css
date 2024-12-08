@@ -413,31 +413,32 @@
   
    mask-image: linear-gradient(black 30%,transparent); /*pone transparente la parte de abajo de la imagen*/
   position: fixed;
-  top: 30%; /*nos sirve para mover la imagen ariiba o abajo, mientras menos% sube */
-  left: 10%; /*nos sirve para mover la imagen de izquierda o derecho*/
+  top: 23%; /*nos sirve para mover la imagen ariiba o abajo, mientras menos% sube */
+  left: 8%; /*nos sirve para mover la imagen de izquierda o derecho*/
   z-index: -1;
   }
-  
-  .titulodepelicula { 
+  .contenedor-titulodepelicula{
     width: 330px;
     height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(350%); /* nos sirve para subir o bajar en contenido*/
+    border-radius: 100px 100px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+
+  .titulodepelicula { 
+    margin: 0;
+    padding: 0;
+    font-size: 30px; /*tamaño de letra*/
+    line-height: 1.5; /*separacion entre lineas*/
+    max-width: 600px; /* Evita texto muy ancho */
     text-transform: uppercase; /* estilo de letra */
     letter-spacing: 10px; /*espacio entre letra*/
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); */
-    font-size: 30px; /*tamaño de letra*/
-    /* background: rgba(0, 0, 0, 0.4); */
-    min-height: 10px; /*espacio que ocupara arriba y abajo*/
-    border-radius: 100px 100px;
-    /* box-shadow: 0px 20px 16px -10px #fff; */
-    /* opacity:0; */
-    /* transition: .5s ease; */
-    /* position: fixed; */
-    
-    /* top: 50%;
-    left: 50%;  */
-    transform: translateY(350%); /* nos sirve para subir o bajar en contenido*/
-    /* z-index: 1; */
-    /* top: -100%; */
   }
   
   
