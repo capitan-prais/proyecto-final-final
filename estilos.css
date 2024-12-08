@@ -399,7 +399,7 @@
   
    mask-image: linear-gradient(black 30%,transparent); /*pone transparente la parte de abajo de la imagen*/
   position: fixed;
-  top: 23%; /*nos sirve para mover la imagen ariiba o abajo, mientras menos% sube */
+  top: 17%; /*nos sirve para mover la imagen ariiba o abajo, mientras menos% sube */
   left: 8%; /*nos sirve para mover la imagen de izquierda o derecho*/
   z-index: -1;
   }
