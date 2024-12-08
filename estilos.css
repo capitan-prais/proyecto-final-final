@@ -204,13 +204,12 @@
   }
   
   #sugerencias {
-    font-size: 25px;
-    list-style: none;
+
     color: beige;
     margin: 0;
     padding: 0;
     width: 300px;
-    height: 300px;
+    height: auto;
     border: 10px solid #000;
     border-radius: 5px;
     /* max-height: 150px; */
@@ -223,9 +222,12 @@
   
   .sugerencias li {
     padding: 10px;
+    font-size: 28px;
     cursor: pointer;
     border: 10px solid #780206;
+    text-decoration: none; /* Quita el subrayado */
   }
+
   
   /* le damos estilo al mensaje de buscando cuando carga al buscar la pelicula */
   #spinner {
