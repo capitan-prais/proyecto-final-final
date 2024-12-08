@@ -234,24 +234,27 @@ btn.addEventListener('click', () => {
 // le da sonido a los botones   ////////////////////////////////////////////////////     
 
 type="text/javascript">
-	$(document).ready(function(){
-		// $('.menu-i').mouseover(function(){
-		// 	$('audio')[0].play();
-		// });
+    $(document).ready(function() {
+        // Establecer volumen para todos los sonidos
+        $('audio').each(function() {
+            this.volume = 0.4; // Ajusta el volumen (0.0 a 1.0)
+        });
 
-		$('.menu-i').mouseup(function(){
-			$('audio')[1].play();
-		});
+        $('.menu-i').mouseup(function() {
+            $('audio')[1].play();
+        });
 
-		$('.imagenpeli').mouseenter(function(){
-			$('audio')[5].play();
-		});
+        $('.imagenpeli').mouseenter(function() {
+            $('audio')[5].play();
+        });
 
-		$('.buscador-container').mouseup(function(){
-			$('audio')[4].play();
-		});
+        $('.buscador-container').mouseup(function() {
+            $('audio')[4].play();
+        });
 
-		$('.n').mousedown(function(){
-			$('audio')[6].play();
-		});
-	});
+        $('.n').mousedown(function() {
+            $('audio')[6].play();
+        });
+    });
+
+
